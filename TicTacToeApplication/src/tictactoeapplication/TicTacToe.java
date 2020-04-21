@@ -17,7 +17,7 @@ public class TicTacToe {
 		for(int i=0;i<board.length;i++) {          
 			board[i]='-';
 		}
-		//it will only create blank board  
+		//it will only create blank board      
 		return board;
 	}
 	public boolean playTurn(int spot) {
